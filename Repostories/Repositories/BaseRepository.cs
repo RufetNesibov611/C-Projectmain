@@ -11,9 +11,12 @@ namespace Repostories.Repostories
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
+        private static int _id = 1;
         public void Create(T entity)
         {
+            entity.Id = _id++;
             AppDbContext<T>.Datas.Add(entity);
+            
         }
 
         public void Delete(T entity)
@@ -36,6 +39,6 @@ namespace Repostories.Repostories
             return AppDbContext<T>.Datas.FirstOrDefault( m => m.Id == id);
         }
 
- 
+      
     }
 }

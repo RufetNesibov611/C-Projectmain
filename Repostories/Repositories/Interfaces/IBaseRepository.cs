@@ -14,5 +14,6 @@ namespace Repostories.Repostories.Interfaces
         void Edit (T entity);
         T GetById(int id);
         List<T> GetAll();
+       
     }
 }
