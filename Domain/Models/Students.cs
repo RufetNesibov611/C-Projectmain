@@ -14,5 +14,7 @@ namespace Domain.Models
         public string Address { get; set; }
         public string Phone { get; set; }
 
+        public Group Group { get; set; }
     }
+
 }

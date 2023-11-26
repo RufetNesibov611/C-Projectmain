@@ -1,0 +1,15 @@
+C:\Users\hp\source\repos\C#Project\Repostories\bin\Debug\net6.0\Repostories.deps.json
+C:\Users\hp\source\repos\C#Project\Repostories\bin\Debug\net6.0\Repostories.dll
+C:\Users\hp\source\repos\C#Project\Repostories\bin\Debug\net6.0\Repostories.pdb
+C:\Users\hp\source\repos\C#Project\Repostories\bin\Debug\net6.0\Domain.dll
+C:\Users\hp\source\repos\C#Project\Repostories\bin\Debug\net6.0\Domain.pdb
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\Repostories.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\Repostories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\Repostories.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\Repostories.AssemblyInfo.cs
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\Repostories.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\Repostories.csproj.CopyComplete
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\Repostories.dll
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\refint\Repostories.dll
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\Repostories.pdb
+C:\Users\hp\source\repos\C#Project\Repostories\obj\Debug\net6.0\ref\Repostories.dll

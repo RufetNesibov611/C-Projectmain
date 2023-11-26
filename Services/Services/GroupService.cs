@@ -1,16 +1,18 @@
-﻿using Repostories.Repositories;
+﻿using Domain.Models;
+using Repostories.Data;
+using Repostories.Repositories;
 using Repostories.Repositories.Interfaces;
 using Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
+
 using System.Threading.Tasks;
 
 namespace Service.Services
 {
-    public class GroupService : IGroupService
+    public class GroupService : IGroupService 
     {
 
         private readonly IGroupRepository _groupRepo;
@@ -19,6 +21,12 @@ namespace Service.Services
         {
             _groupRepo = new GroupRepository();
         }
+
+        public Group CheckByName(string name)
+        {
+          return AppDbContext<Group>.Datas.FirstOrDefault( m => m.Name == name);
+        }
+
         public void Create(Group group)
         {
             _groupRepo.Create(group);
@@ -36,22 +44,23 @@ namespace Service.Services
 
         public List<Group> GetAll()
         {
-            throw new NotImplementedException();
+             return _groupRepo.GetAll();
         }
 
         public Group GetById(int id)
         {
-            throw new NotImplementedException();
+            return _groupRepo.GetById(id);
         }
 
-        public List<Group> Search(string searcText)
+        public List<Group> Search(string name)
         {
-            throw new NotImplementedException();
+            return _groupRepo.Search(name);
         }
 
         public List<Group> Sorting(int capacity)
         {
-            throw new NotImplementedException();
+            return _groupRepo.Sorting(capacity);
         }
+
     }
 }

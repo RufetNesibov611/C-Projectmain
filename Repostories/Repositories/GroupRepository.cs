@@ -12,9 +12,10 @@ namespace Repostories.Repositories
 {
     public class GroupRepository : BaseRepository<Group>, IGroupRepository
     {
-        public List<Group> Search(string searcText)
+
+        public List<Group> Search(string name)
         {
-           return AppDbContext<Group>.Datas.Where(m=>m.Name == searcText).ToList();
+           return AppDbContext<Group>.Datas.Where(m=>m.Name == name).ToList();
         }
 
         public List<Group> Sorting(int capacity)

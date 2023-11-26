@@ -11,9 +11,7 @@ namespace Repostories.Repositories.Interfaces
 {
     public interface IGroupRepository :IBaseRepository<Group>
     {
-        void Create(System.Text.RegularExpressions.Group group);
-        void Delete(System.Text.RegularExpressions.Group group);
-        void Edit(System.Text.RegularExpressions.Group group);
+ 
         List<Group> Search(string searcText);
         List<Group> Sorting(int capacity);
 
